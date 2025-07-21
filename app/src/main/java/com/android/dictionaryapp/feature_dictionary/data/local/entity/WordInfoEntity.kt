@@ -5,8 +5,8 @@ import androidx.room.PrimaryKey
 import com.android.dictionaryapp.feature_dictionary.domain.model.Meaning
 import com.android.dictionaryapp.feature_dictionary.domain.model.WordInfo
 
-//Database class 
-@Entity
+//Database class
+@Entity(tableName = "wordinfoentity")
 data class WordInfoEntity(
     val word : String,
     val phonetic : String,
